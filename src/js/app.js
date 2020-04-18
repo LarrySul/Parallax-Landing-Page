@@ -1,7 +1,13 @@
 import './../css/style.scss'
+import Rellax from 'rellax'
+
+window.onload = function () {
+    let rellax = new Rellax('.rellax');
+}
 
 let root = document.createElement('div')
-root.innerHTML = `<div class="bg"><section class="section section-top">
+root.className = "bg"
+root.innerHTML = `<section class="section section-top">
 <div class="content rellax" data-rellax-speed="5">
     <h1>Community Based Driven Video</h1>
     <a href="#" class="btn btn-primary">Learn More</a>
@@ -66,5 +72,5 @@ root.innerHTML = `<div class="bg"><section class="section section-top">
     <li><a href="#">Terms of Use</a></li>
     <li><a href="#">About Us</a></li>
 </ul>
-</footer></div>`
+</footer>`
 document.body.appendChild(root)

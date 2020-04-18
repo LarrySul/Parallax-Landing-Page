@@ -24,6 +24,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "jquery": "^3.5.0"
+    "jquery": "^3.5.0",
+    "rellax": "^1.12.1"
   }
 }
