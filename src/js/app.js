@@ -44,7 +44,7 @@ root.innerHTML = `<div class="bg"><section class="section section-top">
 </div>
 <div class="rellax" data-rellax-speed="4" data-rellax-xs-speed="3">
     <i class="fas fa-users fa-3x secondary-text"></i>
-    <h2>Share<span class="secondary-text dot">.</span></h2>
+    <h2>Sir Coolchi<span class="secondary-text dot">.</span></h2>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et
             dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
