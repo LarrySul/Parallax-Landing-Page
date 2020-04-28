@@ -14,7 +14,7 @@ root.innerHTML = `<section class="section section-top">
 <section class="section section-stream">
 <img
     class="play rellax"
-    src="./src/img/play-button.png"
+    src="./img/play-button.png"
     alt=""
     data-rellax-speed="-1" data-rellax-xs-speed="-4"
 />
