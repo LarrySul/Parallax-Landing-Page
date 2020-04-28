@@ -12,12 +12,7 @@ root.innerHTML = `<section class="section section-top">
 </div>
 </section>
 <section class="section section-stream">
-<img
-    class="play rellax"
-    src="./img/play-button.png"
-    alt=""
-    data-rellax-speed="-1" data-rellax-xs-speed="-4"
-/>
+<img class="play rellax" src="/img/play-button.png" alt="" data-rellax-speed="-1" data-rellax-xs-speed="-4" />
 <div class="content rellax" data-rellax-speed="10">
     <div>
         <h2 class="secondary-text">Stream Everything</h2>
@@ -42,7 +37,7 @@ root.innerHTML = `<section class="section section-top">
     <h2>Watch<span class="secondary-text dot">.</span></h2>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et
-            dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
+        dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
     </p>
 </div>
 <div class="rellax" data-rellax-speed="4" data-rellax-xs-speed="3">
@@ -50,7 +45,7 @@ root.innerHTML = `<section class="section section-top">
     <h2>Sir Coolchi<span class="secondary-text dot">.</span></h2>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et
-            dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
+        dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
     </p>
 </div>
 <div class="rellax" data-rellax-speed="7" data-rellax-xs-speed="3">
@@ -58,7 +53,7 @@ root.innerHTML = `<section class="section section-top">
     <h2>Learn<span class="secondary-text dot">.</span></h2>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et
-            dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
+        dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
     </p>
 </div>
 </section>
