@@ -1,10 +1,8 @@
-import './../css/style.scss'
+import './css/style.scss'
 import Rellax from 'rellax'
-
 window.onload = function () {
     let rellax = new Rellax('.rellax');
 }
-
 let root = document.createElement('div')
 root.className = "bg"
 root.innerHTML = `<section class="section section-top">
@@ -13,11 +11,10 @@ root.innerHTML = `<section class="section section-top">
     <a href="#" class="btn btn-primary">Learn More</a>
 </div>
 </section>
-
 <section class="section section-stream">
 <img
     class="play rellax"
-    src="https://i.ibb.co/TvdbMhQ/play-button.png"
+    src="./src/img/play-button.png"
     alt=""
     data-rellax-speed="-1" data-rellax-xs-speed="-4"
 />
@@ -73,4 +70,5 @@ root.innerHTML = `<section class="section section-top">
     <li><a href="#">About Us</a></li>
 </ul>
 </footer>`
+
 document.body.appendChild(root)

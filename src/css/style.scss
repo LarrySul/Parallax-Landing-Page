@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
 $colors:(
-
 	primary: #2d2254,
 	secondary: #f5c42f,
 	text: #c5bbec
@@ -91,7 +89,7 @@ ul {
 
 .section-top {
 	min-height: 500px;
-	background: url('https://i.ibb.co/PhVR2Vh/bg1.png') no-repeat center center/cover;
+	background: url('../img/bg1.png') no-repeat center center/cover;
 	
 	@include mobile{
 		min-height: 200px;
@@ -121,7 +119,7 @@ ul {
 
 .section-stream{
     min-height:700px;
-	background: url('https://i.ibb.co/bsX6RV0/bg2.png') no-repeat center center/cover;
+	background: url('../img/bg2.png') no-repeat center center/cover;
 	
 	@include mobile{
 		min-height: 400px;
