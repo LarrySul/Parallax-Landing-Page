@@ -14,7 +14,7 @@ module.exports = {
                     loader: "file-loader",
                     options: {
                         name: "[name].[hash].[text]",
-                        outputPath: "img"
+                        outputPath: "./img"
                     }
                 }
 
